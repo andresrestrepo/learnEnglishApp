@@ -2,3 +2,4 @@
 .nb-gradle-properties
 .nb-gradle/
 build/
+src/main/resources/resources-web/bower_components

@@ -13,5 +13,10 @@ public class HelloController {
         model.addAttribute("name", name);
         return "hello";
     }
+    
+    @RequestMapping("/")
+    public String testPage(Model model) {
+        return "index";
+    }
 
 }
